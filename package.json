@@ -15,7 +15,8 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.3.4",
     "jest": "^23.5.0",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.0.0",
+    "universal-cookie": "^3.0.4"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",

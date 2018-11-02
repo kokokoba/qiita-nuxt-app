@@ -1,4 +1,9 @@
 module.exports = {
+  router: {
+    middleware: [
+      'auth'
+    ]
+  },
   /*
   ** Headers of the page
   */
@@ -25,7 +30,8 @@ module.exports = {
 
   },
   plugins: [
-    '~/plugins/axios.js'
+    '~/plugins/axios.js',
+    '~/plugins/logger'
   ],
   env: {
     QIITA_TOKEN: process.env.QIITA_TOKEN
